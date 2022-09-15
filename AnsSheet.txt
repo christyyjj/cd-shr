@@ -1,0 +1,5 @@
+(b) A linked list can be used instead
+
+(c) Design Pattern to implement (Factory Pattern)
+Create a iqueuableFactory to get the queue type
+Build the iqueuableFactory demo to call the according method
