@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.CounterManagement, .Customer{
+	position: relative;
+	border-style: solid;
+	margin: 20px;
+	padding: 20px;
+}
+
+.customer-counter, .management-counter{
+	display: grid;
+  	grid-template-columns: auto auto auto auto;
+  	column-gap: 20px;
+}
+
+.customer-counter > div, .management-counter > div{
+	position: relative;
+	text-align: center;
+	border: solid;
+}
+
+h2, .Customer > h3, p{
+	text-align: center;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+}
+
+#curr_num_1, #curr_num_2, #curr_num_3, #curr_num_4, #now-serving, #last-number {
+	visibility: hidden;
+}

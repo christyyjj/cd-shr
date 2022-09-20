@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Customer</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="Customer">
+	
+		<h2>Customer View</h2>
+		
+		<p>Now Serving: <span id="now-serving">[serving number]</span></p>
+		<p>Last Number: <span id="last-number">[last issued number]</span></p>
+		<p id="demo"></p>
+		<p><button type="button" id="take-num">Take a Number</button></p>
+				
+		<div class="customer-counter">
+			<div>
+				<h3>Counter 1</h3>
+				<div class="dot" id="dot1"></div>
+				<p id="curr_num_1">[Current Number]</p>
+			</div>
+			<div>
+				<h3>Counter 2</h3>
+				<div class="dot" id="dot2"></div>
+				<p id="curr_num_2">[Current Number]</p>
+			</div>
+			<div>
+				<h3>Counter 3</h3>
+				<div class="dot" id="dot3"></div>
+				<p id="curr_num_3">[Current Number]</p>
+			</div>
+			<div>
+				<h3>Counter 4</h3>
+				<div class="dot" id="dot4"></div>
+				<p id="curr_num_4">[Current Number]</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="CounterManagement">
+		<h2>Counter Management</h2>
+		<div class="management-counter">
+			<div id="counter1">
+				<h3>Counter 1</h3>
+				<p><input type="button" id="toggle1" value="Go Offline"></p>
+				<p><button type="button" id="comp1">Complete Current</button></p>
+				<p><button type="button" id="call1">Call Next</button></p>
+			</div>
+			
+			<div id="counter2">
+				<h3>Counter 2</h3>
+				<p><input type="button" id="toggle2" value="Go Offline"></p>
+				<p><button type="button" id="comp2">Complete Current</button></p>
+				<p><button type="button" id="call2">Call Next</button></p>
+			</div>
+			
+			<div id="counter3">
+				<h3>Counter 3</h3>
+				<p><input type="button" id="toggle3" value="Go Offline"></p>
+				<p><button type="button" id="comp3">Complete Current</button></p>
+				<p><button type="button" id="call3">Call Next</button></p>
+			</div>
+			
+			<div id="counter4">
+				<h3>Counter 4</h3>
+				<p><input type="button" id="toggle4" value="Go Offline"></p>
+				<p><button type="button" id="comp4">Complete Current</button></p>
+				<p><button type="button" id="call4">Call Next</button></p>
+			</div>
+			
+		</div>
+	</div>
+	
+	<script src="main.js"></script>
+</body>
+</html>
